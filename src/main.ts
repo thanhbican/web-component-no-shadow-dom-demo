@@ -24,6 +24,7 @@ createWebComponent({
   h,
   createApp,
   getCurrentInstance,
+  disableShadowDOM: true,
 })
 
 createWebComponent({
@@ -35,4 +36,5 @@ createWebComponent({
   h,
   createApp,
   getCurrentInstance,
+  disableShadowDOM: true,
 })
