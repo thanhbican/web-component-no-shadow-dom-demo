@@ -17,15 +17,16 @@
       model-value="v-model-value"
     >
       <!-- abc not render with out wrapper like div -->
+      abc
       <div>abc</div>
 
-      <!-- <h1>abc</h1> only outputs the text as-is -->
+      <!-- <h1> tags only outputs the text as-is -->
       <div slot="customName">
-        <h1>abc</h1>
+        <h1>h1 not render</h1>
       </div>
 
       <!-- Attributes Are Lost -->
-      <div class="text-red" id="test">Please inspect element this</div>
+      <div class="text-red" id="test">this text without class or id</div>
     </my-web-component>
 
     <script type="module" src="./src/main.ts"></script>
